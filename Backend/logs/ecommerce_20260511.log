@@ -1,0 +1,16 @@
+2026-05-11 21:55:56 - ecommerce - INFO - Login attempt: mushahid@example.com
+2026-05-11 21:55:56 - ecommerce - INFO - User logged in successfully: mushahid@example.com (ID: 9)
+2026-05-11 22:02:18 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-11 22:02:18 - ecommerce - INFO - User logged in successfully: admin@example.com (ID: 2)
+2026-05-11 22:08:20 - ecommerce - INFO - Login attempt: mushahid@example.com
+2026-05-11 22:08:20 - ecommerce - INFO - User logged in successfully: mushahid@example.com (ID: 9)
+2026-05-11 22:09:59 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-11 22:10:00 - ecommerce - WARNING - Failed login attempt: admin@example.com
+2026-05-11 22:10:15 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-11 22:10:15 - ecommerce - WARNING - Failed login attempt: admin@example.com
+2026-05-11 22:10:39 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-11 22:10:39 - ecommerce - WARNING - Failed login attempt: admin@example.com
+2026-05-11 22:11:09 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-11 22:11:09 - ecommerce - WARNING - Failed login attempt: admin@example.com
+2026-05-11 22:11:35 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-11 22:11:35 - ecommerce - INFO - User logged in successfully: admin@example.com (ID: 2)

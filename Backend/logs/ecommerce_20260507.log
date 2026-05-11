@@ -1,0 +1,71 @@
+2026-05-07 18:32:17 - ecommerce - INFO - Login attempt: sumair_xsusx
+2026-05-07 18:32:17 - ecommerce - WARNING - Failed login attempt: sumair_xsusx
+2026-05-07 18:32:18 - ecommerce - INFO - Login attempt: sumair_xsusx
+2026-05-07 18:32:18 - ecommerce - WARNING - Failed login attempt: sumair_xsusx
+2026-05-07 18:32:19 - ecommerce - INFO - Login attempt: sumair_xsusx
+2026-05-07 18:32:19 - ecommerce - WARNING - Failed login attempt: sumair_xsusx
+2026-05-07 18:32:20 - ecommerce - INFO - Login attempt: sumair_xsusx
+2026-05-07 18:32:20 - ecommerce - WARNING - Failed login attempt: sumair_xsusx
+2026-05-07 18:32:20 - ecommerce - INFO - Login attempt: sumair_xsusx
+2026-05-07 18:32:20 - ecommerce - WARNING - Failed login attempt: sumair_xsusx
+2026-05-07 18:34:29 - ecommerce - INFO - New user registration attempt: sumair_xsusx
+2026-05-07 18:34:30 - ecommerce - INFO - User registered successfully: sumair_xsusx (ID: 3)
+2026-05-07 18:34:49 - ecommerce - INFO - Login attempt: sumair_xsusx
+2026-05-07 18:34:49 - ecommerce - INFO - User logged in successfully: sumair_xsusx (ID: 3)
+2026-05-07 18:37:22 - ecommerce - INFO - Login attempt: demo
+2026-05-07 18:37:22 - ecommerce - INFO - User logged in successfully: demo (ID: 1)
+2026-05-07 18:37:38 - ecommerce - INFO - Login attempt: demo
+2026-05-07 18:37:38 - ecommerce - INFO - User logged in successfully: demo (ID: 1)
+2026-05-07 18:38:24 - ecommerce - INFO - Login attempt: admin
+2026-05-07 18:38:24 - ecommerce - INFO - User logged in successfully: admin (ID: 2)
+2026-05-07 18:38:41 - ecommerce - INFO - Login attempt: admin
+2026-05-07 18:38:42 - ecommerce - INFO - User logged in successfully: admin (ID: 2)
+2026-05-07 19:44:38 - ecommerce - INFO - Login attempt: admin
+2026-05-07 19:44:38 - ecommerce - INFO - User logged in successfully: admin (ID: 2)
+2026-05-07 19:44:52 - ecommerce - INFO - Login attempt: sumair_xsusx
+2026-05-07 19:44:52 - ecommerce - INFO - User logged in successfully: sumair_xsusx (ID: 3)
+2026-05-07 19:45:08 - ecommerce - INFO - New user registration attempt: sumair_xsusx
+2026-05-07 19:45:08 - ecommerce - WARNING - Registration failed - user already exists: sumair_xsusx
+2026-05-07 19:45:13 - ecommerce - INFO - Login attempt: sumair_xsusx
+2026-05-07 19:45:13 - ecommerce - INFO - User logged in successfully: sumair_xsusx (ID: 3)
+2026-05-07 19:45:19 - ecommerce - INFO - Login attempt: sumair_xsusx
+2026-05-07 19:45:19 - ecommerce - INFO - User logged in successfully: sumair_xsusx (ID: 3)
+2026-05-07 19:45:28 - ecommerce - INFO - Login attempt: sumair_xsusx
+2026-05-07 19:45:28 - ecommerce - INFO - User logged in successfully: sumair_xsusx (ID: 3)
+2026-05-07 19:45:44 - ecommerce - INFO - Login attempt: demo
+2026-05-07 19:45:44 - ecommerce - INFO - User logged in successfully: demo (ID: 1)
+2026-05-07 19:52:10 - ecommerce - INFO - Login attempt: sumair_xsusz
+2026-05-07 19:52:10 - ecommerce - WARNING - Failed login attempt: sumair_xsusz
+2026-05-07 19:52:20 - ecommerce - INFO - Login attempt: sumair_xsusz
+2026-05-07 19:52:20 - ecommerce - WARNING - Failed login attempt: sumair_xsusz
+2026-05-07 19:52:30 - ecommerce - INFO - Login attempt: admin
+2026-05-07 19:52:30 - ecommerce - INFO - User logged in successfully: admin (ID: 2)
+2026-05-07 19:53:59 - ecommerce - INFO - Login attempt: sumair_xsusx
+2026-05-07 19:53:59 - ecommerce - WARNING - Failed login attempt: sumair_xsusx
+2026-05-07 19:56:44 - ecommerce - INFO - Login attempt: sumair_xsusx
+2026-05-07 19:56:44 - ecommerce - INFO - User logged in successfully: sumair_xsusx (ID: 3)
+2026-05-07 21:08:02 - ecommerce - INFO - New user registration attempt: string
+2026-05-07 21:08:43 - ecommerce - INFO - New user registration attempt: sumair_xsusx
+2026-05-07 21:08:43 - ecommerce - INFO - User registered successfully: sumair_xsusx (ID: 4)
+2026-05-07 21:09:21 - ecommerce - INFO - Login attempt: sumair_xsusx
+2026-05-07 21:09:21 - ecommerce - INFO - User logged in successfully: sumair_xsusx (ID: 4)
+2026-05-07 21:10:26 - ecommerce - INFO - Login attempt: sumair_xsusx
+2026-05-07 21:10:26 - ecommerce - INFO - User logged in successfully: sumair_xsusx (ID: 4)
+2026-05-07 22:11:35 - ecommerce - INFO - New user registration attempt: demo
+2026-05-07 22:11:35 - ecommerce - INFO - Registration data: email=demo@example.com, username=demo
+2026-05-07 22:11:35 - ecommerce - WARNING - Registration failed - user already exists: demo
+2026-05-07 22:14:00 - ecommerce - INFO - New user registration attempt: testuser2024
+2026-05-07 22:14:00 - ecommerce - INFO - Registration data: email=testuser2024@example.com, username=testuser2024
+2026-05-07 22:14:00 - ecommerce - INFO - User registered successfully: testuser2024 (ID: 5)
+2026-05-07 22:14:00 - ecommerce - INFO - Login attempt: testuser2024
+2026-05-07 22:14:00 - ecommerce - INFO - User logged in successfully: testuser2024 (ID: 5)
+2026-05-07 22:14:56 - ecommerce - INFO - Login attempt: testuser2024@example.com
+2026-05-07 22:14:56 - ecommerce - WARNING - Failed login attempt: testuser2024@example.com
+2026-05-07 22:15:18 - ecommerce - INFO - Login attempt: testuser2024@example.com
+2026-05-07 22:15:18 - ecommerce - WARNING - Failed login attempt: testuser2024@example.com
+2026-05-07 22:15:26 - ecommerce - INFO - Login attempt: testuser2024@example.com
+2026-05-07 22:15:26 - ecommerce - WARNING - Failed login attempt: testuser2024@example.com
+2026-05-07 22:15:48 - ecommerce - INFO - Login attempt: testuser2024@example.com
+2026-05-07 22:15:48 - ecommerce - WARNING - Failed login attempt: testuser2024@example.com
+2026-05-07 22:19:27 - ecommerce - INFO - Login attempt: testuser2024
+2026-05-07 22:19:27 - ecommerce - INFO - User logged in successfully: testuser2024 (ID: 5)

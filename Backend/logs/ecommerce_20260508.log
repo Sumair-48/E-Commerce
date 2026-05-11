@@ -1,0 +1,143 @@
+2026-05-08 01:35:03 - ecommerce - INFO - New user registration attempt: John Doe
+2026-05-08 01:35:03 - ecommerce - INFO - Registration data: email=john@example.com, name=John Doe
+2026-05-08 01:35:03 - ecommerce - INFO - User registered successfully: john@example.com (ID: 6)
+2026-05-08 01:35:37 - ecommerce - INFO - Login attempt: john@example.com
+2026-05-08 01:35:37 - ecommerce - WARNING - Failed login attempt: john@example.com
+2026-05-08 01:36:48 - ecommerce - INFO - Login attempt: john@example.com
+2026-05-08 01:36:48 - ecommerce - INFO - User logged in successfully: john@example.com (ID: 6)
+2026-05-08 10:46:58 - ecommerce - INFO - User onboarding completed: john@example.com (ID: 6)
+2026-05-08 14:37:59 - ecommerce - INFO - Login attempt: autotest_20260508143758@example.com
+2026-05-08 14:37:59 - ecommerce - WARNING - Failed login attempt: autotest_20260508143758@example.com
+2026-05-08 14:38:25 - ecommerce - INFO - New user registration attempt: autotest_20260508143825
+2026-05-08 14:38:25 - ecommerce - INFO - Registration data: email=autotest_20260508143825@example.com, name=autotest_20260508143825
+2026-05-08 14:38:25 - ecommerce - INFO - User registered successfully: autotest_20260508143825@example.com (ID: 7)
+2026-05-08 14:38:25 - ecommerce - INFO - Login attempt: autotest_20260508143825@example.com
+2026-05-08 14:38:25 - ecommerce - INFO - User logged in successfully: autotest_20260508143825@example.com (ID: 7)
+2026-05-08 14:38:25 - ecommerce - INFO - User onboarding completed: autotest_20260508143825@example.com (ID: 7)
+2026-05-08 14:38:49 - ecommerce - INFO - New user registration attempt: autotest_20260508143849
+2026-05-08 14:38:49 - ecommerce - INFO - Registration data: email=autotest_20260508143849@example.com, name=autotest_20260508143849
+2026-05-08 14:38:49 - ecommerce - INFO - User registered successfully: autotest_20260508143849@example.com (ID: 8)
+2026-05-08 14:38:53 - ecommerce - INFO - Login attempt: autotest_20260508143849@example.com
+2026-05-08 14:38:53 - ecommerce - INFO - User logged in successfully: autotest_20260508143849@example.com (ID: 8)
+2026-05-08 14:38:53 - ecommerce - INFO - User onboarding completed: autotest_20260508143849@example.com (ID: 8)
+2026-05-08 14:41:59 - ecommerce - INFO - New user registration attempt: Mushahid
+2026-05-08 14:41:59 - ecommerce - INFO - Registration data: email=mushahid@example.com, name=Mushahid
+2026-05-08 14:41:59 - ecommerce - INFO - User registered successfully: mushahid@example.com (ID: 9)
+2026-05-08 14:41:59 - ecommerce - INFO - Login attempt: mushahid@example.com
+2026-05-08 14:41:59 - ecommerce - INFO - User logged in successfully: mushahid@example.com (ID: 9)
+2026-05-08 14:42:28 - ecommerce - INFO - User onboarding completed: mushahid@example.com (ID: 9)
+2026-05-08 14:46:44 - ecommerce - INFO - New user registration attempt: autoui_1778233603320
+2026-05-08 14:46:44 - ecommerce - INFO - Registration data: email=autoui_1778233603320@example.com, name=autoui_1778233603320
+2026-05-08 14:46:44 - ecommerce - INFO - User registered successfully: autoui_1778233603320@example.com (ID: 10)
+2026-05-08 14:46:44 - ecommerce - INFO - Login attempt: autoui_1778233603320@example.com
+2026-05-08 14:46:44 - ecommerce - INFO - User logged in successfully: autoui_1778233603320@example.com (ID: 10)
+2026-05-08 14:47:01 - ecommerce - INFO - New user registration attempt: autoui_1778233620315
+2026-05-08 14:47:01 - ecommerce - INFO - Registration data: email=autoui_1778233620315@example.com, name=autoui_1778233620315
+2026-05-08 14:47:01 - ecommerce - INFO - User registered successfully: autoui_1778233620315@example.com (ID: 11)
+2026-05-08 14:47:01 - ecommerce - INFO - Login attempt: autoui_1778233620315@example.com
+2026-05-08 14:47:01 - ecommerce - INFO - User logged in successfully: autoui_1778233620315@example.com (ID: 11)
+2026-05-08 14:47:03 - ecommerce - INFO - User onboarding completed: autoui_1778233620315@example.com (ID: 11)
+2026-05-08 14:47:04 - ecommerce - INFO - Login attempt: autoui_1778233620315@example.com
+2026-05-08 14:47:04 - ecommerce - INFO - User logged in successfully: autoui_1778233620315@example.com (ID: 11)
+2026-05-08 14:47:40 - ecommerce - INFO - New user registration attempt: apitest_20260508144740
+2026-05-08 14:47:40 - ecommerce - INFO - Registration data: email=apitest_20260508144740@example.com, name=apitest_20260508144740
+2026-05-08 14:47:40 - ecommerce - INFO - User registered successfully: apitest_20260508144740@example.com (ID: 12)
+2026-05-08 14:47:40 - ecommerce - INFO - Login attempt: apitest_20260508144740@example.com
+2026-05-08 14:47:40 - ecommerce - INFO - User logged in successfully: apitest_20260508144740@example.com (ID: 12)
+2026-05-08 14:47:40 - ecommerce - INFO - User onboarding completed: apitest_20260508144740@example.com (ID: 12)
+2026-05-08 14:48:02 - ecommerce - INFO - New user registration attempt: apitest_20260508144802
+2026-05-08 14:48:02 - ecommerce - INFO - Registration data: email=apitest_20260508144802@example.com, name=apitest_20260508144802
+2026-05-08 14:48:02 - ecommerce - INFO - User registered successfully: apitest_20260508144802@example.com (ID: 13)
+2026-05-08 14:48:03 - ecommerce - INFO - Login attempt: apitest_20260508144802@example.com
+2026-05-08 14:48:03 - ecommerce - INFO - User logged in successfully: apitest_20260508144802@example.com (ID: 13)
+2026-05-08 14:48:03 - ecommerce - INFO - User onboarding completed: apitest_20260508144802@example.com (ID: 13)
+2026-05-08 14:48:24 - ecommerce - INFO - New user registration attempt: apitest_20260508144824
+2026-05-08 14:48:24 - ecommerce - INFO - Registration data: email=apitest_20260508144824@example.com, name=apitest_20260508144824
+2026-05-08 14:48:24 - ecommerce - INFO - User registered successfully: apitest_20260508144824@example.com (ID: 14)
+2026-05-08 14:48:27 - ecommerce - INFO - Login attempt: apitest_20260508144824@example.com
+2026-05-08 14:48:27 - ecommerce - INFO - User logged in successfully: apitest_20260508144824@example.com (ID: 14)
+2026-05-08 14:48:28 - ecommerce - INFO - User onboarding completed: apitest_20260508144824@example.com (ID: 14)
+2026-05-08 14:49:17 - ecommerce - INFO - New user registration attempt: autoui_1778233756042
+2026-05-08 14:49:17 - ecommerce - INFO - Registration data: email=autoui_1778233756042@example.com, name=autoui_1778233756042
+2026-05-08 14:49:17 - ecommerce - INFO - User registered successfully: autoui_1778233756042@example.com (ID: 15)
+2026-05-08 14:49:17 - ecommerce - INFO - Login attempt: autoui_1778233756042@example.com
+2026-05-08 14:49:17 - ecommerce - INFO - User logged in successfully: autoui_1778233756042@example.com (ID: 15)
+2026-05-08 14:49:19 - ecommerce - INFO - User onboarding completed: autoui_1778233756042@example.com (ID: 15)
+2026-05-08 14:49:20 - ecommerce - INFO - Login attempt: autoui_1778233756042@example.com
+2026-05-08 14:49:20 - ecommerce - INFO - User logged in successfully: autoui_1778233756042@example.com (ID: 15)
+2026-05-08 14:50:13 - ecommerce - INFO - New user registration attempt: autoui_1778233812437
+2026-05-08 14:50:13 - ecommerce - INFO - Registration data: email=autoui_1778233812437@example.com, name=autoui_1778233812437
+2026-05-08 14:50:13 - ecommerce - INFO - User registered successfully: autoui_1778233812437@example.com (ID: 16)
+2026-05-08 14:50:13 - ecommerce - INFO - Login attempt: autoui_1778233812437@example.com
+2026-05-08 14:50:13 - ecommerce - INFO - User logged in successfully: autoui_1778233812437@example.com (ID: 16)
+2026-05-08 14:50:15 - ecommerce - INFO - User onboarding completed: autoui_1778233812437@example.com (ID: 16)
+2026-05-08 14:53:43 - ecommerce - INFO - New user registration attempt: autoui_1778234022466
+2026-05-08 14:53:43 - ecommerce - INFO - Registration data: email=autoui_1778234022466@example.com, name=autoui_1778234022466
+2026-05-08 14:53:44 - ecommerce - INFO - User registered successfully: autoui_1778234022466@example.com (ID: 17)
+2026-05-08 14:53:44 - ecommerce - INFO - Login attempt: autoui_1778234022466@example.com
+2026-05-08 14:53:44 - ecommerce - INFO - User logged in successfully: autoui_1778234022466@example.com (ID: 17)
+2026-05-08 14:53:46 - ecommerce - INFO - User onboarding completed: autoui_1778234022466@example.com (ID: 17)
+2026-05-08 14:53:47 - ecommerce - INFO - Login attempt: autoui_1778234022466@example.com
+2026-05-08 14:53:47 - ecommerce - INFO - User logged in successfully: autoui_1778234022466@example.com (ID: 17)
+2026-05-08 14:54:41 - ecommerce - INFO - New user registration attempt: autoui_1778234079924
+2026-05-08 14:54:41 - ecommerce - INFO - Registration data: email=autoui_1778234079924@example.com, name=autoui_1778234079924
+2026-05-08 14:54:41 - ecommerce - INFO - User registered successfully: autoui_1778234079924@example.com (ID: 18)
+2026-05-08 14:54:41 - ecommerce - INFO - Login attempt: autoui_1778234079924@example.com
+2026-05-08 14:54:41 - ecommerce - INFO - User logged in successfully: autoui_1778234079924@example.com (ID: 18)
+2026-05-08 14:54:43 - ecommerce - INFO - User onboarding completed: autoui_1778234079924@example.com (ID: 18)
+2026-05-08 14:54:45 - ecommerce - INFO - Login attempt: autoui_1778234079924@example.com
+2026-05-08 14:54:45 - ecommerce - INFO - User logged in successfully: autoui_1778234079924@example.com (ID: 18)
+2026-05-08 15:16:24 - ecommerce - INFO - Login attempt: mushahid@example.com
+2026-05-08 15:16:24 - ecommerce - INFO - User logged in successfully: mushahid@example.com (ID: 9)
+2026-05-08 15:18:00 - ecommerce - INFO - Login attempt: autoui_1778234079924@example.com
+2026-05-08 15:18:00 - ecommerce - INFO - User logged in successfully: autoui_1778234079924@example.com (ID: 18)
+2026-05-08 15:18:31 - ecommerce - INFO - Login attempt: autoui_1778234079924@example.com
+2026-05-08 15:18:31 - ecommerce - INFO - User logged in successfully: autoui_1778234079924@example.com (ID: 18)
+2026-05-08 15:19:04 - ecommerce - INFO - Login attempt: autoui_1778234079924@example.com
+2026-05-08 15:19:04 - ecommerce - INFO - User logged in successfully: autoui_1778234079924@example.com (ID: 18)
+2026-05-08 15:22:41 - ecommerce - INFO - Login attempt: autoui_1778234079924@example.com
+2026-05-08 15:22:41 - ecommerce - INFO - User logged in successfully: autoui_1778234079924@example.com (ID: 18)
+2026-05-08 15:26:03 - ecommerce - INFO - Login attempt: autoui_1778234079924@example.com
+2026-05-08 15:26:03 - ecommerce - INFO - User logged in successfully: autoui_1778234079924@example.com (ID: 18)
+2026-05-08 15:27:05 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-08 15:28:01 - ecommerce - INFO - Login attempt: autoui_1778234079924@example.com
+2026-05-08 15:28:01 - ecommerce - INFO - User logged in successfully: autoui_1778234079924@example.com (ID: 18)
+2026-05-08 15:28:13 - ecommerce - INFO - Login attempt: autoui_1778234079924@example.com
+2026-05-08 15:28:13 - ecommerce - INFO - User logged in successfully: autoui_1778234079924@example.com (ID: 18)
+2026-05-08 15:29:23 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-08 15:29:30 - ecommerce - INFO - Login attempt: autoui_1778234079924@example.com
+2026-05-08 15:29:30 - ecommerce - INFO - User logged in successfully: autoui_1778234079924@example.com (ID: 18)
+2026-05-08 15:29:41 - ecommerce - INFO - Login attempt: mushahid@example.com
+2026-05-08 15:29:41 - ecommerce - INFO - User logged in successfully: mushahid@example.com (ID: 9)
+2026-05-08 15:31:02 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-08 15:31:28 - ecommerce - INFO - Login attempt: autoui_1778234079924@example.com
+2026-05-08 15:31:28 - ecommerce - INFO - User logged in successfully: autoui_1778234079924@example.com (ID: 18)
+2026-05-08 15:31:41 - ecommerce - INFO - Login attempt: mushahid@example.com
+2026-05-08 15:31:41 - ecommerce - INFO - User logged in successfully: mushahid@example.com (ID: 9)
+2026-05-08 15:32:01 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-08 15:32:59 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-08 15:33:00 - ecommerce - INFO - User logged in successfully: admin@example.com (ID: 2)
+2026-05-08 15:33:00 - ecommerce - INFO - Login attempt: mushahid@example.com
+2026-05-08 15:33:00 - ecommerce - WARNING - Failed login attempt: mushahid@example.com
+2026-05-08 15:33:21 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-08 15:33:21 - ecommerce - INFO - User logged in successfully: admin@example.com (ID: 2)
+2026-05-08 15:34:11 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-08 15:34:11 - ecommerce - INFO - User logged in successfully: admin@example.com (ID: 2)
+2026-05-08 15:34:41 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-08 15:34:41 - ecommerce - INFO - User logged in successfully: admin@example.com (ID: 2)
+2026-05-08 15:35:38 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-08 15:35:38 - ecommerce - INFO - User logged in successfully: admin@example.com (ID: 2)
+2026-05-08 15:35:42 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-08 15:35:42 - ecommerce - INFO - User logged in successfully: admin@example.com (ID: 2)
+2026-05-08 15:35:46 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-08 15:35:46 - ecommerce - INFO - User logged in successfully: admin@example.com (ID: 2)
+2026-05-08 15:37:38 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-08 15:37:39 - ecommerce - INFO - User logged in successfully: admin@example.com (ID: 2)
+2026-05-08 15:39:06 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-08 15:39:06 - ecommerce - INFO - User logged in successfully: admin@example.com (ID: 2)
+2026-05-08 20:46:21 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-08 20:46:21 - ecommerce - INFO - User logged in successfully: admin@example.com (ID: 2)
+2026-05-08 21:02:00 - ecommerce - INFO - Login attempt: mushahid@example.com
+2026-05-08 21:02:00 - ecommerce - INFO - User logged in successfully: mushahid@example.com (ID: 9)
+2026-05-08 21:06:32 - ecommerce - INFO - Login attempt: mushahid@example.com
+2026-05-08 21:06:32 - ecommerce - INFO - User logged in successfully: mushahid@example.com (ID: 9)

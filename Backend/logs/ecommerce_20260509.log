@@ -1,0 +1,6 @@
+2026-05-09 14:05:57 - ecommerce - INFO - Login attempt: mushahid@example.com
+2026-05-09 14:05:57 - ecommerce - INFO - User logged in successfully: mushahid@example.com (ID: 9)
+2026-05-09 14:06:54 - ecommerce - INFO - Login attempt: admin@example.com
+2026-05-09 14:06:54 - ecommerce - INFO - User logged in successfully: admin@example.com (ID: 2)
+2026-05-09 14:16:23 - ecommerce - INFO - Login attempt: mushahid@example.com
+2026-05-09 14:16:23 - ecommerce - INFO - User logged in successfully: mushahid@example.com (ID: 9)

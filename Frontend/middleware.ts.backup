@@ -1,0 +1,84 @@
+import { NextRequest, NextResponse } from 'next/server'
+
+export function middleware(request: NextRequest) {
+  const token = request.cookies.get('auth-token')?.value
+  const onboardingCompleted = request.cookies.get('onboarding-completed')?.value === 'true'
+  const isAdmin = request.cookies.get('is-admin')?.value === 'true'
+  const pathname = request.nextUrl.pathname
+
+  // Public routes that don't require auth
+  const publicRoutes = ['/', '/login', '/register']
+  
+  // Protected routes that require auth (and onboarding to be completed)
+  const protectedRoutes = ['/dashboard', '/products', '/cart', '/wishlist', '/checkout', '/analytics']
+  
+  // Admin routes that require auth AND admin role
+  const adminRoutes = ['/admin']
+  
+  // Onboarding route
+  const onboardingRoute = '/onboarding'
+
+  // Check if current route is protected
+  const isProtectedRoute = protectedRoutes.some((route) => pathname.startsWith(route))
+  
+  // Check if current route is admin
+  const isAdminRoute = adminRoutes.some((route) => pathname.startsWith(route))
+  
+  // Check if current route is onboarding
+  const isOnboardingRoute = pathname === onboardingRoute || pathname.startsWith(onboardingRoute + '/')
+  
+  // Check if current route is public
+  const isPublicRoute = publicRoutes.some((route) => pathname === route || pathname === route + '/')
+
+  // If trying to access protected route without token, redirect to login
+  if (isProtectedRoute && !token) {
+    return NextResponse.redirect(new URL('/login', request.url))
+  }
+
+  // If trying to access admin route without token, redirect to login
+  if (isAdminRoute && !token) {
+    return NextResponse.redirect(new URL('/login', request.url))
+  }
+
+  // If trying to access admin route without admin role, redirect to dashboard
+  if (isAdminRoute && token && !isAdmin) {
+    return NextResponse.redirect(new URL('/dashboard', request.url))
+  }
+
+  // If trying to access onboarding without token, redirect to login
+  if (isOnboardingRoute && !token) {
+    return NextResponse.redirect(new URL('/login', request.url))
+  }
+
+  // If user is logged in but onboarding is not completed, redirect to onboarding
+  if (isProtectedRoute && token && !onboardingCompleted) {
+    return NextResponse.redirect(new URL('/onboarding', request.url))
+  }
+
+  // If user is logged in and onboarding is completed, but trying to access onboarding, redirect to dashboard
+  if (isOnboardingRoute && token && onboardingCompleted) {
+    return NextResponse.redirect(new URL('/dashboard', request.url))
+  }
+
+  // If user is logged in and tries to access login/register, redirect to dashboard or onboarding
+  if ((pathname === '/login' || pathname === '/register') && token) {
+    const redirectPath = onboardingCompleted ? '/dashboard' : '/onboarding'
+    return NextResponse.redirect(new URL(redirectPath, request.url))
+  }
+
+  return NextResponse.next()
+}
+
+export const config = {
+  matcher: [
+    /*
+     * Match all request paths except for the ones starting with:
+     * - api (API routes)
+     * - _next/static (static files)
+     * - _next/image (image optimization files)
+     * - favicon.ico (favicon file)
+     * - public files
+     */
+    '/((?!api|_next/static|_next/image|favicon.ico).*)',
+  ],
+}
